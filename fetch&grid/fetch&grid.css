@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-size: 20px;
+    
+}
+.navbar_block{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px;
+    width: 100%;
+}
+.navbar_left_block{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.navbar_right_block{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.big_title_block{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 121, 123);
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.big_title{
+    font-size: 200%;
+}
+.content_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 300px 300px;
+    grid-template-areas: 
+    "title1 title1 title2 title2 title3 title3"
+    "pic1 pic1 pic2 pic3 pic4 pic5"
+    "pic6 pic6 pic7 pic8 pic9 pic10";
+    grid-gap: 20px;
+    width: 1200px;
+    margin-left: calc((100% - 1200px) / 2);
+    margin-right: calc((100% - 1200px) / 2);
+}
+.title_block1{
+    grid-area: title1;
+    height: 80px;
+    background-color: aquamarine;
+}
+.title_block2{
+    grid-area: title2;
+    height: 80px;
+    background-color: aquamarine;
+}
+.title_block3{
+    grid-area: title3;
+    height: 80px;
+    background-color: aquamarine;
+}
+
+.pic_block1{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic1;
+    position: relative;
+}
+.pic_block2{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic2;
+    position: relative;
+}
+.pic_block3{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic3;
+    position: relative;
+}
+.pic_block4{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic4;
+    position: relative;
+}
+.pic_block5{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic5;
+    position: relative;
+}
+.pic_block6{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic6;
+    position: relative;
+}
+.pic_block7{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic7;
+    position: relative;
+}
+.pic_block8{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic8;
+    position: relative;
+}
+.pic_block9{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic9;
+    position: relative;
+}
+.pic_block10{
+    background-color: rgb(8, 87, 156, 0.2);
+    grid-area: pic10;
+    position: relative;
+}
+.text_block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.text_block10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.small_img{
+    width: 50px;
+    height: 80px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.big_img{
+    width: 100%; /* 調整圖片的寬度 */
+    height: auto; /* 調整圖片的高度 */
+    object-fit: cover; /*保持圖片比例，並裁剪超出的部分 */
+    object-position: top 0px right 0px;
+}
+.star_block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: auto;
+}
+.star_block img{
+    height: 100%;
+    width: auto;
+
+}
+.text{
+    color: white;
+}
